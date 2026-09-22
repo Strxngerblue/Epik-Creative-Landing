@@ -29,7 +29,7 @@ export default function Footer() {
               alt="Epik Bizz"
               className="h-8 w-auto"
             />
-            <p className="text-[13px] leading-snug text-[#0b0b0b]">
+            <p className="text-[13px] leading-snug font-bold text-[#0b0b0b]">
               Hagamos que tu marca evolucione. Hagamos que sea Epik.
             </p>
             <div className="flex gap-2.5">
