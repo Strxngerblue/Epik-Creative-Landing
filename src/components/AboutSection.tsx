@@ -13,7 +13,7 @@ export default function AboutSection() {
           </p>
           <h2
             className="font-bold text-epik-lime uppercase"
-            style={{ fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+            style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
           >
             Dos Mentes, Una Visión
           </h2>

@@ -96,7 +96,7 @@ export default function ProcessSteps() {
             Un proceso simple
             <span
               className="mt-2 block leading-[0.95]"
-              style={{ color: PROCESS_LIME, fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+              style={{ color: PROCESS_LIME, fontSize: "clamp(2.5rem, 8vw, 96px)" }}
             >
               de principio a fin
             </span>

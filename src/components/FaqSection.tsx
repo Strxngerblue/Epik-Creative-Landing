@@ -43,7 +43,7 @@ export default function FaqSection() {
         <Reveal className="flex flex-col gap-3">
           <h2
             className="font-bold text-epik-lime uppercase"
-            style={{ fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+            style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
           >
             Preguntas Frecuentes
           </h2>

@@ -40,7 +40,7 @@ export default function StreamsPackages() {
           </p>
           <h2
             className="max-w-3xl font-bold text-epik-lime uppercase"
-            style={{ fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+            style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
           >
             Dale identidad propia a tu contenido en vivo.
           </h2>
