@@ -17,7 +17,7 @@ export default function CreativePackages() {
           >
             Contenido con estilo, estrategia y personalidad.
           </h2>
-          <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">
+          <p className="max-w-4xl text-[15px] leading-relaxed text-epik-text">
             Desde crear tu presencia hasta amplificar tu alcance. Elige el
             paquete que mejor se adapte a lo que tu marca necesita hoy.
           </p>

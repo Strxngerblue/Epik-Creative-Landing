@@ -47,7 +47,7 @@ export default function StreamsPackages() {
           >
             Dale identidad propia a tu contenido en vivo.
           </h2>
-          <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">
+          <p className="max-w-4xl text-[15px] leading-relaxed text-epik-text">
             Overlays, branding, highlights y más. Todo lo que necesitas para
             que tu stream se sienta profesional y reconocible.
           </p>
