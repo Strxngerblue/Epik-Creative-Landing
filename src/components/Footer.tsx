@@ -47,15 +47,12 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col items-start gap-4">
-            <p className="text-[11px] tracking-[2px] text-[#0b0b0b]/55 uppercase">
-              Menú
-            </p>
             <nav className="flex flex-col gap-3.5">
               {MENU.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-[13px] text-[#0b0b0b] transition-opacity hover:opacity-70"
+                  className="text-[13px] font-bold text-[#0b0b0b] transition-opacity hover:opacity-70"
                 >
                   {item.label}
                 </a>
