@@ -23,13 +23,13 @@ export default function Footer() {
         className="mx-auto max-w-[1260px] overflow-hidden rounded-[28px] bg-epik-lime px-6 pt-8 pb-6 sm:rounded-[40px] sm:px-10 sm:pt-10 md:px-14"
       >
         <div className="flex flex-col gap-10 md:flex-row md:justify-between">
-          <div className="flex max-w-[280px] flex-col items-start gap-4">
+          <div className="flex flex-col items-start gap-4">
             <img
               src="/images/footer-logo.png"
               alt="Epik Bizz"
               className="h-8 w-auto"
             />
-            <p className="text-[13px] leading-snug font-bold text-[#0b0b0b]">
+            <p className="text-[13px] leading-snug font-bold whitespace-normal text-[#0b0b0b] sm:whitespace-nowrap">
               Hagamos que tu marca evolucione. Hagamos que sea Epik.
             </p>
             <div className="flex gap-2.5">
