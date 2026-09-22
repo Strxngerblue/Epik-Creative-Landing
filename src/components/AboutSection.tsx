@@ -8,7 +8,10 @@ export default function AboutSection() {
     >
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
         <Reveal className="flex max-w-2xl flex-col gap-3">
-          <p className="text-[13px] font-bold tracking-wide text-epik-text/95 uppercase">
+          <p
+            className="font-bold tracking-wide text-epik-text/95 uppercase"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
+          >
             ¿Quiénes estamos detrás de Epik?
           </p>
           <h2

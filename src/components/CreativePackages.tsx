@@ -5,7 +5,10 @@ export default function CreativePackages() {
     <section className="bg-black px-6 py-14 md:px-10 md:py-20 lg:px-20">
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
         <Reveal className="flex flex-col gap-3">
-          <p className="text-[13px] font-bold tracking-wide text-epik-text/95 uppercase">
+          <p
+            className="font-bold tracking-wide text-epik-text/95 uppercase"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
+          >
             Paquetes Creative
           </p>
           <h2

@@ -118,7 +118,10 @@ export default function ServicesCarousel() {
     >
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
         <Reveal className="flex flex-col gap-3">
-          <p className="text-[13px] font-bold tracking-wide text-epik-text/95 uppercase">
+          <p
+            className="font-bold tracking-wide text-epik-text/95 uppercase"
+            style={{ fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
+          >
             Nuestros Servicios
           </p>
           <h2
