@@ -22,8 +22,9 @@ export default function AboutSection() {
           </h2>
           <p className="text-base leading-relaxed text-epik-text">
             Epik nace de dos mentes, dos formas de crear con una misma
-            visión. Creamos Epik porque creemos que no debería existir una
-            barrera entre imaginar algo increíble y hacerlo realidad.
+            visión. Creamos Epik porque creemos que no debería existir
+            <br />
+            una barrera entre imaginar algo increíble y hacerlo realidad.
           </p>
         </Reveal>
 
@@ -45,7 +46,7 @@ export default function AboutSection() {
         </Reveal>
 
         <Reveal delay={150} className="flex flex-col items-center gap-8 text-center">
-          <p className="max-w-2xl text-2xl leading-tight font-bold text-epik-lime uppercase sm:text-3xl md:text-4xl">
+          <p className="text-2xl leading-tight font-bold text-epik-lime uppercase sm:text-3xl md:text-4xl">
             Tú pones la idea. Nosotros la hacemos EPIK.
           </p>
         </Reveal>
