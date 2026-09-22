@@ -122,7 +122,7 @@ export default function ServicesCarousel() {
             Nuestros Servicios
           </p>
           <h2
-            className="max-w-3xl font-bold text-epik-lime uppercase"
+            className="max-w-3xl font-bold leading-[0.95] text-epik-lime uppercase"
             style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
           >
             Transformamos lo que te hace diferente en algo imposible de

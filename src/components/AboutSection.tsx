@@ -12,7 +12,7 @@ export default function AboutSection() {
             ¿Quiénes estamos detrás de Epik?
           </p>
           <h2
-            className="font-bold text-epik-lime uppercase"
+            className="font-bold leading-[0.95] text-epik-lime uppercase"
             style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
           >
             Dos Mentes, Una Visión
