@@ -41,7 +41,10 @@ export default function FaqSection() {
     <section id="faq" className="bg-black px-6 py-14 md:px-10 md:py-20 lg:px-20">
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
         <Reveal className="flex flex-col gap-3">
-          <h2 className="text-3xl font-bold text-epik-lime uppercase sm:text-4xl">
+          <h2
+            className="font-bold text-epik-lime uppercase"
+            style={{ fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+          >
             Preguntas Frecuentes
           </h2>
           <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">

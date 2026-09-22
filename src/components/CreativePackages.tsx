@@ -8,7 +8,10 @@ export default function CreativePackages() {
           <p className="text-[13px] font-bold tracking-wide text-epik-text/95 uppercase">
             Paquetes Creative
           </p>
-          <h2 className="max-w-3xl text-3xl font-bold text-epik-lime uppercase sm:text-4xl">
+          <h2
+            className="max-w-3xl font-bold text-epik-lime uppercase"
+            style={{ fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+          >
             Contenido con estilo, estrategia y personalidad.
           </h2>
           <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">

@@ -121,7 +121,10 @@ export default function ServicesCarousel() {
           <p className="text-[13px] font-bold tracking-wide text-epik-text/95 uppercase">
             Nuestros Servicios
           </p>
-          <h2 className="max-w-3xl text-3xl font-bold text-epik-lime uppercase sm:text-4xl">
+          <h2
+            className="max-w-3xl font-bold text-epik-lime uppercase"
+            style={{ fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+          >
             Transformamos lo que te hace diferente en algo imposible de
             ignorar.
           </h2>

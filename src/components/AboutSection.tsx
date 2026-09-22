@@ -11,7 +11,10 @@ export default function AboutSection() {
           <p className="text-[13px] font-bold tracking-wide text-epik-text/95 uppercase">
             ¿Quiénes estamos detrás de Epik?
           </p>
-          <h2 className="text-3xl font-bold text-epik-lime uppercase sm:text-4xl">
+          <h2
+            className="font-bold text-epik-lime uppercase"
+            style={{ fontSize: "clamp(2.5rem, 10vw, 128px)" }}
+          >
             Dos Mentes, Una Visión
           </h2>
           <p className="text-base leading-relaxed text-epik-text">
