@@ -1,13 +1,15 @@
 import { useEffect, useRef, useState } from "react";
 import Reveal from "./Reveal";
 
-// Ported from github.com/iKhunsa/epik-bizz-landing (ProcessSection): white
-// band, star-shaped step badges (masked with step-shape.svg) that fill lime
-// as the section scrolls past, and a matching animated progress line.
-const PROCESS_LIME = "#cefd00";
-const PROCESS_TRACK = "#d8d8d8";
+// Ported from github.com/iKhunsa/epik-bizz-landing (ProcessSection),
+// recolored for our dark theme: star-shaped step badges (masked with
+// step-shape.svg) that fill lime as the section scrolls past, and a
+// matching animated progress line, on the site's black background.
+const PROCESS_LIME = "#baff19";
+const PROCESS_TRACK = "#8e8e93";
 const PROCESS_INK = "#0b0b0b";
-const PROCESS_MUTED = "#5c5c5c";
+const PROCESS_TEXT = "#f2f2f2";
+const PROCESS_MUTED = "rgba(242,242,242,0.7)";
 
 const STEPS = [
   {
@@ -84,12 +86,12 @@ export default function ProcessSteps() {
   const fillRatio = (activeStep - 1) / (STEPS.length - 1);
 
   return (
-    <section id="proceso" className="bg-white py-14 md:py-20">
+    <section id="proceso" className="bg-black py-14 md:py-20">
       <div className="mx-auto w-full max-w-[1180px] px-4 sm:px-5 lg:px-8">
         <Reveal className="mb-14 text-center">
           <h2
             className="font-bold uppercase tracking-tight"
-            style={{ color: PROCESS_INK, fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
+            style={{ color: PROCESS_TEXT, fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
           >
             Un proceso simple
             <span
@@ -151,7 +153,7 @@ export default function ProcessSteps() {
               </span>
               <h3
                 className="mt-5 max-w-[16ch] text-sm font-bold uppercase tracking-tight"
-                style={{ color: PROCESS_INK }}
+                style={{ color: PROCESS_TEXT }}
               >
                 {step.title}
               </h3>
