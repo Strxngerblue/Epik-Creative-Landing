@@ -20,7 +20,7 @@ export default function AboutSection() {
           >
             Dos Mentes, Una Visión
           </h2>
-          <p className="max-w-4xl text-base leading-relaxed text-epik-text">
+          <p className="text-base leading-relaxed text-epik-text">
             Epik nace de dos mentes, dos formas de crear con una misma
             visión. Creamos Epik porque creemos que no debería existir una
             barrera entre imaginar algo increíble y hacerlo realidad.
