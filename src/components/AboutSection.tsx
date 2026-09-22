@@ -7,20 +7,20 @@ export default function AboutSection() {
       className="bg-black px-6 py-14 md:px-10 md:py-20 lg:px-20"
     >
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
-        <Reveal className="flex max-w-2xl flex-col gap-3">
+        <Reveal className="flex flex-col gap-3">
           <p
-            className="font-bold tracking-wide text-epik-text/95 uppercase"
+            className="whitespace-normal font-bold tracking-wide text-epik-text/95 uppercase xl:whitespace-nowrap"
             style={{ fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
           >
             ¿Quiénes estamos detrás de Epik?
           </p>
           <h2
-            className="font-bold leading-[0.95] text-epik-lime uppercase"
+            className="whitespace-normal font-bold leading-[0.95] text-epik-lime uppercase xl:whitespace-nowrap"
             style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
           >
             Dos Mentes, Una Visión
           </h2>
-          <p className="text-base leading-relaxed text-epik-text">
+          <p className="max-w-2xl text-base leading-relaxed text-epik-text">
             Epik nace de dos mentes, dos formas de crear con una misma
             visión.
             <br />
