@@ -35,11 +35,6 @@ export default function AboutSection() {
             <p className="text-xl font-bold text-epik-blue">Hola! soy Blue.</p>
           </div>
 
-          <p className="max-w-[220px] text-center text-2xl leading-snug text-epik-text">
-            Una idea puede{" "}
-            <span className="text-epik-lime">convertirse en</span> una marca.
-          </p>
-
           <div className="flex w-full max-w-[300px] flex-col items-center gap-3">
             <div className="flex aspect-square w-full flex-col items-center justify-center rounded-[24px] border border-epik-orange/40 bg-epik-orange/10 transition-colors duration-200 [@media(hover:hover)]:hover:border-epik-orange/70">
               <p className="text-xl font-bold text-epik-orange">
@@ -50,13 +45,6 @@ export default function AboutSection() {
         </Reveal>
 
         <Reveal delay={150} className="flex flex-col items-center gap-8 text-center">
-          <p className="max-w-4xl text-base leading-relaxed text-epik-text">
-            Creamos Epik para poner todo lo que sabemos hacer al alcance de
-            marcas, empresas, creadores y personas con algo que quieren
-            construir. Porque muchas veces lo único que falta para hacer algo
-            increíble es alguien que vea el potencial de tu idea y se atreva a
-            llevarla más allá.
-          </p>
           <p className="max-w-2xl text-2xl leading-tight font-bold text-epik-lime uppercase sm:text-3xl md:text-4xl">
             Tú pones la idea. Nosotros la hacemos EPIK.
           </p>
