@@ -30,8 +30,7 @@ export default function Footer() {
               className="h-8 w-auto"
             />
             <p className="text-[13px] leading-snug text-[#0b0b0b]">
-              Creamos contenido, imagen y estrategia para marcas que quieren
-              verse y sentirse Epik.
+              Hagamos que tu marca evolucione. Hagamos que sea Epik.
             </p>
             <div className="flex gap-2.5">
               {SOCIALS.map((social) => (
