@@ -32,13 +32,13 @@ export default function AboutSection() {
           delay={100}
           className="flex flex-col items-center gap-10 md:flex-row md:items-center md:justify-center md:gap-8"
         >
-          <div className="flex aspect-square w-full max-w-[300px] flex-col items-center justify-center rounded-[24px] border border-epik-blue/40 bg-epik-blue/10 transition-colors duration-200 [@media(hover:hover)]:hover:border-epik-blue/70">
-            <p className="text-xl font-bold text-epik-blue">Hola! soy Blue.</p>
+          <div className="flex aspect-square w-full max-w-[300px] flex-col items-center justify-center rounded-[24px] border border-epik-lime/40 bg-epik-lime/10 transition-colors duration-200 [@media(hover:hover)]:hover:border-epik-lime/70">
+            <p className="text-xl font-bold text-epik-lime">Hola! soy Blue.</p>
           </div>
 
           <div className="flex w-full max-w-[300px] flex-col items-center gap-3">
-            <div className="flex aspect-square w-full flex-col items-center justify-center rounded-[24px] border border-epik-orange/40 bg-epik-orange/10 transition-colors duration-200 [@media(hover:hover)]:hover:border-epik-orange/70">
-              <p className="text-xl font-bold text-epik-orange">
+            <div className="flex aspect-square w-full flex-col items-center justify-center rounded-[24px] border border-epik-lime/40 bg-epik-lime/10 transition-colors duration-200 [@media(hover:hover)]:hover:border-epik-lime/70">
+              <p className="text-xl font-bold text-epik-lime">
                 Hola! soy Kuro.
               </p>
             </div>
