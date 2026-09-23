@@ -40,22 +40,7 @@ export default function FaqSection() {
   return (
     <section id="faq" className="bg-black px-6 py-14 md:px-10 md:py-20 lg:px-20">
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
-        <Reveal className="flex flex-col gap-3">
-          <h2
-            className="font-bold leading-[0.95] tracking-tight text-epik-lime"
-            style={{ fontSize: "clamp(2rem, 6vw, 64px)" }}
-          >
-            Preguntas
-            <br />
-            frecuentes
-          </h2>
-          <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">
-            Resolvemos las dudas más comunes sobre cómo trabajamos en Epik.
-          </p>
-        </Reveal>
-
         <Reveal
-          delay={100}
           className="flex flex-col items-start gap-8 lg:flex-row lg:justify-center"
         >
           <img
@@ -64,47 +49,64 @@ export default function FaqSection() {
             className="h-[280px] w-full rounded-[16px] object-cover sm:h-[360px] lg:h-[447px] lg:w-[556px]"
           />
 
-          <div className="w-full rounded-[27px] bg-epik-panel px-6 py-6 sm:px-8 sm:py-4 lg:w-[553px]">
-            {FAQS.map((faq, i) => {
-              const isOpen = openIndex === i;
-              return (
-                <div
-                  key={faq.question}
-                  className={i !== 0 ? "border-t border-epik-text/20" : ""}
-                >
-                  <button
-                    type="button"
-                    onClick={() => setOpenIndex(isOpen ? null : i)}
-                    aria-expanded={isOpen}
-                    className="press flex w-full items-center justify-between gap-4 py-6 text-left"
+          <div className="flex w-full flex-col gap-6 lg:w-[553px]">
+            <div className="flex flex-col gap-3">
+              <h2
+                className="font-bold leading-[0.95] tracking-tight text-epik-lime"
+                style={{ fontSize: "clamp(2rem, 6vw, 64px)" }}
+              >
+                Preguntas
+                <br />
+                frecuentes
+              </h2>
+              <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">
+                Resolvemos las dudas más comunes sobre cómo trabajamos en
+                Epik.
+              </p>
+            </div>
+
+            <div className="w-full rounded-[27px] bg-epik-panel px-6 py-6 sm:px-8 sm:py-4">
+              {FAQS.map((faq, i) => {
+                const isOpen = openIndex === i;
+                return (
+                  <div
+                    key={faq.question}
+                    className={i !== 0 ? "border-t border-epik-text/20" : ""}
                   >
-                    <span className="text-base font-bold tracking-[-0.5px] text-epik-text">
-                      {faq.question}
-                    </span>
-                    <svg
-                      viewBox="0 0 24 24"
-                      className={`h-6 w-6 shrink-0 text-epik-text transition-transform duration-200 ease-[var(--ease-out)] ${isOpen ? "rotate-180" : ""}`}
-                      fill="none"
-                      stroke="currentColor"
-                      strokeWidth={2}
+                    <button
+                      type="button"
+                      onClick={() => setOpenIndex(isOpen ? null : i)}
+                      aria-expanded={isOpen}
+                      className="press flex w-full items-center justify-between gap-4 py-6 text-left"
                     >
-                      <path
-                        d="M6 9l6 6 6-6"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </button>
-                  <div className={`disclosure ${isOpen ? "is-open" : ""}`}>
-                    <div>
-                      <p className="disclosure-fade pb-6 text-sm leading-relaxed text-epik-text/70">
-                        {faq.answer}
-                      </p>
+                      <span className="text-base font-bold tracking-[-0.5px] text-epik-text">
+                        {faq.question}
+                      </span>
+                      <svg
+                        viewBox="0 0 24 24"
+                        className={`h-6 w-6 shrink-0 text-epik-text transition-transform duration-200 ease-[var(--ease-out)] ${isOpen ? "rotate-180" : ""}`}
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth={2}
+                      >
+                        <path
+                          d="M6 9l6 6 6-6"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </button>
+                    <div className={`disclosure ${isOpen ? "is-open" : ""}`}>
+                      <div>
+                        <p className="disclosure-fade pb-6 text-sm leading-relaxed text-epik-text/70">
+                          {faq.answer}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </Reveal>
       </div>
