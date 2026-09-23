@@ -12,8 +12,8 @@ export default function CreativePackages() {
             Creative Packs
           </p>
           <h2
-            className="max-w-3xl font-bold leading-[0.95] text-epik-lime uppercase"
-            style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
+            className="font-bold leading-[0.95] text-epik-lime uppercase"
+            style={{ fontSize: "clamp(2.5rem, 8vw, 90px)" }}
           >
             Contenido con estilo, estrategia y personalidad.
           </h2>

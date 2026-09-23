@@ -42,8 +42,8 @@ export default function StreamsPackages() {
             Streamer Packs
           </p>
           <h2
-            className="max-w-3xl font-bold leading-[0.95] text-epik-lime uppercase"
-            style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
+            className="font-bold leading-[0.95] text-epik-lime uppercase"
+            style={{ fontSize: "clamp(2.5rem, 8vw, 86px)" }}
           >
             Dale identidad propia a tu contenido en vivo.
           </h2>
