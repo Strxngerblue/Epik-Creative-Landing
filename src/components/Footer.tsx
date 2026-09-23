@@ -38,9 +38,9 @@ export default function Footer() {
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="press flex h-9 w-9 items-center justify-center rounded-lg border border-[#0b0b0b] transition-opacity hover:opacity-70"
+                  className="press flex h-9 w-9 items-center justify-center transition-opacity hover:opacity-70"
                 >
-                  <img src={social.icon} alt="" className="h-[18px] w-[18px]" />
+                  <img src={social.icon} alt="" className="h-7 w-7" />
                 </a>
               ))}
             </div>
