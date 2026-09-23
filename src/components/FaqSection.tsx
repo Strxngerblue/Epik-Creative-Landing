@@ -42,10 +42,10 @@ export default function FaqSection() {
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
         <Reveal className="flex flex-col gap-3">
           <h2
-            className="font-bold leading-[0.95] text-epik-lime uppercase"
-            style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
+            className="font-bold leading-[0.95] tracking-tight text-epik-lime"
+            style={{ fontSize: "clamp(2rem, 6vw, 64px)" }}
           >
-            Preguntas Frecuentes
+            Preguntas frecuentes
           </h2>
           <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">
             Resolvemos las dudas más comunes sobre cómo trabajamos en Epik.
