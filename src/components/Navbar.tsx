@@ -35,7 +35,7 @@ export default function Navbar() {
 
         <a
           href="#contacto"
-          className="press hidden h-11 items-center justify-center rounded-full bg-epik-text px-5 text-sm font-bold tracking-[-0.4px] text-black transition-opacity hover:opacity-80 lg:flex"
+          className="press hidden h-11 items-center justify-center rounded-full bg-epik-lime px-5 text-sm font-bold tracking-[-0.4px] text-black transition-opacity hover:opacity-80 lg:flex"
         >
           Hablemos
         </a>
