@@ -39,7 +39,7 @@ export default function StreamsPackages() {
             className="font-bold tracking-wide text-epik-text/95 uppercase"
             style={{ fontSize: "clamp(1.5rem, 4vw, 2.5rem)" }}
           >
-            Packs Streams
+            Streamer Packs
           </p>
           <h2
             className="max-w-3xl font-bold leading-[0.95] text-epik-lime uppercase"
