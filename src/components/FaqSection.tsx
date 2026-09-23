@@ -40,7 +40,7 @@ export default function FaqSection() {
   return (
     <section id="faq" className="bg-black px-6 py-14 md:px-10 md:py-20 lg:px-20">
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
-        <Reveal className="flex flex-col gap-3">
+        <Reveal className="flex flex-col items-end gap-3 text-right">
           <h2
             className="font-bold leading-[0.95] tracking-tight text-epik-lime"
             style={{ fontSize: "clamp(2rem, 6vw, 64px)" }}
