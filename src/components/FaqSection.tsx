@@ -41,12 +41,12 @@ export default function FaqSection() {
     <section id="faq" className="bg-black px-6 py-14 md:px-10 md:py-20 lg:px-20">
       <div className="mx-auto flex max-w-[1140px] flex-col gap-10">
         <Reveal
-          className="flex flex-col items-start gap-8 lg:flex-row lg:justify-center"
+          className="flex flex-col items-start gap-8 lg:flex-row lg:items-stretch lg:justify-center"
         >
           <img
             src="/images/faq-swirl.png"
             alt=""
-            className="h-[280px] w-full rounded-[16px] object-cover sm:h-[360px] lg:h-[447px] lg:w-[556px]"
+            className="h-[280px] w-full rounded-[16px] object-cover sm:h-[360px] lg:h-auto lg:w-[556px]"
           />
 
           <div className="flex w-full flex-col gap-6 lg:w-[553px]">
