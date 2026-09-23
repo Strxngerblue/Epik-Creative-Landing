@@ -128,7 +128,7 @@ export default function ServicesCarousel() {
             className="font-bold leading-[0.95] text-epik-lime uppercase"
             style={{ fontSize: "clamp(2.5rem, 8vw, 96px)" }}
           >
-            Hacemos imposible ignorar lo que te hace diferente.
+            Hacemos imposible de ignorar lo que te hace diferente.
           </h2>
           <p className="max-w-2xl text-[15px] leading-relaxed text-epik-text">
             Epik Creative convierte tu marca en algo que todos quieren mirar.
